@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'haettenschweiler';
-	src: url(‘/static/haettenschweiler_[fr.allfont.net].ttf’) format(‘idk’)
+    font-family: 'haettenschweiler';
+    src: url(‘/static/haettenschweiler_[fr.allfont.net].ttf’) format(‘idk’)
 }
 
 body {
@@ -20,22 +20,41 @@ body {
 
 #navigation-bar {
     display: flex;
-    height: 20%;
+    height: 10%;
     width: 100%;
-    background-color: red;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+
 }
 
 #logo {
     display: flex;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-jordan {}
+
+#text-jordan {
+    text-align: center;
 }
 
 #onglet {
     display: flex;
+    height: 100%;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
 }
+
+.items {}
 
 #content {
     display: flex;
-    height: 80%;
+    height: 90%;
     width: 100%;
     flex-direction: column;
     background-color: aqua;
