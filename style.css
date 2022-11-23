@@ -8,7 +8,9 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    font-family: 'haettenschweiler', idk;
+    background: rgb(114,33,163);
+    background: linear-gradient(90deg, rgba(114,33,163,1) 40%, rgba(174,38,79,1) 100%);
+    color: white;
 }
 
 #screen {
@@ -24,8 +26,8 @@ body {
     width: 100%;
     justify-content: space-between;
     font-size: larger;
-    color: white;
-
+    font-family: 'haettenschweiler', idk;
+    background-color: rgba(0,0, 0, 0.5);
 }
 
 #logo {
@@ -57,11 +59,13 @@ body {
     height: 90%;
     width: 100%;
     flex-direction: column;
-    background-color: aqua;
+    
 }
 
 #title {
     display: flex;
+    color: black;
+    font-family: 'haettenschweiler', idk;
 }
 
 #catchphrase {}
@@ -86,4 +90,5 @@ body {
 
 #buyit {
     display: flex;
+    font-family: 'haettenschweiler', idk;
 }
