@@ -68,6 +68,8 @@ body {
 #title {
     display: flex;
     font-family: 'haettenschweiler', idk;
+    align-items: center;
+    height: 15%;
 }
 
 #catchphrase {
