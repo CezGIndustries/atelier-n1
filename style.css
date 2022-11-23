@@ -1,8 +1,14 @@
+@font-face {
+	font-family: 'haettenschweiler';
+	src: url(‘/static/haettenschweiler_[fr.allfont.net].ttf’) format(‘idk’)
+}
+
 body {
     padding: 0;
     margin: 0;
     height: 100vh;
     width: 100%;
+    font-family: 'haettenschweiler', idk;
 }
 
 #screen {
@@ -16,6 +22,7 @@ body {
     display: flex;
     height: 20%;
     width: 100%;
+    background-color: red;
 }
 
 #logo {
@@ -31,11 +38,14 @@ body {
     height: 80%;
     width: 100%;
     flex-direction: column;
+    background-color: aqua;
 }
 
 #title {
     display: flex;
 }
+
+#catchphrase {}
 
 #shoes {
     display: flex;
@@ -53,9 +63,7 @@ body {
     display: flex;
 }
 
-#description {
-    display: flex;
-}
+#description {}
 
 #buyit {
     display: flex;
